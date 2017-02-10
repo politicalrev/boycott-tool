@@ -1,6 +1,6 @@
 # Political Revolution Boycott Tool
 
-Work-in-progress tool for easily identifying companies and products to avoid.
+The Political Revolution's boycott helper. A reskinable tool to help people know quickly if the product they're about to buy needs boycotting.
 
 ### To run
 
