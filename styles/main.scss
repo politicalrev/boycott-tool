@@ -1,0 +1,60 @@
+body {
+	background: $white;
+	color: $black;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 600;
+}
+
+.background-image {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://political-revolution.com/app/themes/thepoliticalsage/assets/images/background-polrev-compressed.png");
+	background-position: bottom center;
+	background-size: cover;
+	opacity: 0.1;
+	z-index: -1;
+}
+
+.main-container {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+
+	.content-box {
+		border: 2px black solid;
+		display: inline-block;
+		max-width: calc(50% - 20px);
+    margin: 10px;
+
+		.site-description {
+			padding: 0px 15px;
+		}
+		.worst-offenders {
+			width: 100%;
+		}
+		.search-container {
+			text-align: center;
+			input {
+				border-radius: 3px;
+				font-size: 1.3em;
+				width: calc(100% - 20px);
+				padding: 10px;
+				border: none;
+				background-color: $blue;
+				color: $white;
+				border-radius: 0px;
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+	}
+}
